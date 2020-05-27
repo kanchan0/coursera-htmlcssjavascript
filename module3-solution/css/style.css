@@ -1,0 +1,110 @@
+body{
+    font-size: 16px;
+    color: rgb(14, 3, 3);
+    background-color: #fff;
+    font-family: 'Oxygen','sans-serif';
+}
+.content {
+  margin: 10px 22px 10px 22px;
+  padding: 1px 20px 20px 20px;
+  font-family: Helvetica;
+  color:rgb(241, 237, 237);
+  background-color: #5b615b;
+}
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Tahoma, sans-serif;
+  color: #37492c;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+}
+h2 {
+  color: rgb(182, 142, 142);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px #222;
+}
+
+#header-nav {
+  background-color: #c5f060;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav button {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #e3ebd0;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: #7d1913;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #f0b9b9;
+}
+
+#nav-list {
+  background-color:#5b8005;
+}
+
+#nav-list a {
+  font-weight: bolder;
+  color: #282828;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  color: #202020;
+  background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #7d1913;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+/******* for super small devices like iphone 4 or some others ****/
+@media(max-width:767px ){
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .content {
+    margin: 12px 60px 12px 60px;
+    padding: 1px 20px 20px 20px;
+    font-family: Helvetica;
+    color:rgb(241, 237, 237);
+    background-color: #5b615b;
+  }
+}
